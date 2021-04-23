@@ -1,0 +1,23 @@
+<div class="container">
+  <h2 class="text-center my-3">All Users</h2>
+  <table class="table table-striped">
+    <thead>
+      <tr>
+        <th scope="col">Id</th>
+        <th scope="col">Name</th>
+        <th scope="col">Email</th>
+        <th scope="col">Phone</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let user of users">
+        <th scope="row">
+          <a routerLink="{{ user.id }}" style="color: black">{{ user.id }}</a>
+        </th>
+        <td>{{ user.name }}</td>
+        <td>{{ user.email }}</td>
+        <td>{{ user.phone }}</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
