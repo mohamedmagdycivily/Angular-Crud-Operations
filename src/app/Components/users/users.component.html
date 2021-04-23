@@ -9,6 +9,8 @@
         <th scope="col">Phone</th>
         <th scope="col">City</th>
         <th scope="col">Street</th>
+        <th scope="col">Delete</th>
+        <!-- <th scope="col">Edit</th> -->
       </tr>
     </thead>
     <tbody>
@@ -21,6 +23,9 @@
         <td>{{ user.phone }}</td>
         <td>{{ user.city }}</td>
         <td>{{ user.street }}</td>
+        <td>
+          <a (click)="delete(user.id)" class="btn btn-danger">Delete</a>
+        </td>
       </tr>
     </tbody>
   </table>

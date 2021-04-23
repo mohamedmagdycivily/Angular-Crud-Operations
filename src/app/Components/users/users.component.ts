@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Router } from '@angular/router';
 import { UsersService } from 'src/app/Services/users.service';
 
 @Component({
@@ -7,7 +8,8 @@ import { UsersService } from 'src/app/Services/users.service';
   styles: [],
 })
 export class UsersComponent implements OnInit {
-  constructor(private myService: UsersService) {}
+  users;
+  constructor(private myService: UsersService, private router: Router) {}
   ngOnInit(): void {
     this.myService.getAllUsers().subscribe(
       (res) => {
@@ -19,5 +21,10 @@ export class UsersComponent implements OnInit {
       }
     );
   }
-  users;
+  delete(id) {
+    console.log(id);
+    this.myService.DeleteById(id).subscribe();
+    location.reload();
+    // this.router.navigate(['users']);
+  }
 }
