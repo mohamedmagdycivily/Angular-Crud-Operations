@@ -4,43 +4,41 @@
       "id": 1,
       "name": "KOKO",
       "email": "KOKO@gmail.com",
-      "phone": "011111111111"
+      "phone": "011111111111",
+      "city": "mansoura",
+      "street": "50 abdelsalam ST"
     },
     {
       "id": 2,
       "name": "Batot",
       "email": "Batot@gmail.com",
-      "phone": "0222222222"
+      "phone": "0222222222",
+      "city": "aciro",
+      "street": "100 abdelsalam ST"
     },
     {
       "id": 3,
       "name": "Dahap",
       "email": "Dahap@gmail.com",
-      "phone": "033333333"
+      "phone": "033333333",
+      "city": "domiate",
+      "street": "80 abdelsalam ST"
     },
     {
-      "id": 4,
-      "name": "Micky",
-      "email": "Micky@gmail.com",
-      "phone": "0444444444"
+      "id": "4",
+      "name": "mohamed magdy",
+      "email": "mohamedmagdycivily@gmail.com",
+      "phone": "5464546",
+      "city": "mansoura",
+      "street": "mansoura"
     },
     {
-      "id": 5,
-      "name": "Jerry",
-      "email": "Jerry@gmail.com",
-      "phone": "05555555555"
-    },
-    {
-      "id": 6,
-      "name": "Tom",
-      "email": "Tom@gmail.com",
-      "phone": "066666666666"
-    },
-    {
-      "id": "7",
-      "name": "Hamada",
-      "phone": "0777777777",
-      "email": "Hamada@gmail.com"
+      "id": "5",
+      "name": "mohamed magdy",
+      "email": "mohamedmagdycivily@gmail.com",
+      "phone": "5464546",
+      "city": "mansoura",
+      "street": "mansoura"
     }
   ]
 }
