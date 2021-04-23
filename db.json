@@ -1,0 +1,46 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "KOKO",
+      "email": "KOKO@gmail.com",
+      "phone": "011111111111"
+    },
+    {
+      "id": 2,
+      "name": "Batot",
+      "email": "Batot@gmail.com",
+      "phone": "0222222222"
+    },
+    {
+      "id": 3,
+      "name": "Dahap",
+      "email": "Dahap@gmail.com",
+      "phone": "033333333"
+    },
+    {
+      "id": 4,
+      "name": "Micky",
+      "email": "Micky@gmail.com",
+      "phone": "0444444444"
+    },
+    {
+      "id": 5,
+      "name": "Jerry",
+      "email": "Jerry@gmail.com",
+      "phone": "05555555555"
+    },
+    {
+      "id": 6,
+      "name": "Tom",
+      "email": "Tom@gmail.com",
+      "phone": "066666666666"
+    },
+    {
+      "id": "7",
+      "name": "Hamada",
+      "phone": "0777777777",
+      "email": "Hamada@gmail.com"
+    }
+  ]
+}
