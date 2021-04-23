@@ -8,6 +8,8 @@ import { UserItemComponent } from './Components/user-item/user-item.component';
 import { UserDetailsComponent } from './Components/user-details/user-details.component';
 import { NewUserComponent } from './Components/new-user/new-user.component';
 import { FormsModule } from '@angular/forms';
+import { CustumDirective } from './Directives/custum.directive';
+import { CustumPipe } from './Pipes/custum.pipe';
 
 @NgModule({
   declarations: [
@@ -16,6 +18,8 @@ import { FormsModule } from '@angular/forms';
     UserItemComponent,
     UserDetailsComponent,
     NewUserComponent,
+    CustumDirective,
+    CustumPipe,
   ],
   imports: [BrowserModule, AppRoutingModule, HttpClientModule, FormsModule],
   providers: [],

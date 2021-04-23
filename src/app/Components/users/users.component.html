@@ -18,8 +18,10 @@
         <th scope="row">
           <a routerLink="{{ user.id }}" style="color: black">{{ user.id }}</a>
         </th>
-        <td>{{ user.name }}</td>
-        <td>{{ user.email }}</td>
+        <td [appCustum]="{ bg: 'yellow', fg: 'green' }">
+          {{ user.name | uppercase }}
+        </td>
+        <td>{{ user.email | custum: "*" }}</td>
         <td>{{ user.phone }}</td>
         <td>{{ user.city }}</td>
         <td>{{ user.street }}</td>

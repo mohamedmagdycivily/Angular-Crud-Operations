@@ -23,8 +23,10 @@ export class UsersComponent implements OnInit {
   }
   delete(id) {
     console.log(id);
-    this.myService.DeleteById(id).subscribe();
-    location.reload();
+    this.myService.DeleteById(id).subscribe((data) => {
+      this.ngOnInit();
+    });
+    // location.reload();
     // this.router.navigate(['users']);
   }
 }
